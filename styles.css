@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(178, 194, 236);
+  font-family: "Roboto", sans-serif;
+}
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.barraBusqueda {
+  margin-bottom: 15px;
+}
+
+#busqueda {
+  width: 300px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: antiquewhite;
+  border: solid 1px blueviolet;
+  font-size: 20px;
+  padding-left: 15px;
+}
+
+#busqueda:focus {
+}
+
+#btnConsultar {
+  width: 100px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: rgb(164, 245, 201);
+  font-size: 18px;
+  border: solid 1px rgb(25, 110, 131);
+}
+
+#btnConsultar:hover {
+  border: solid 2px rgb(7, 29, 34);
+}
+
+#btnConsultar:active {
+  background-color: rgb(92, 186, 223);
+}
+
+#contenedor h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-weight: 300;
+}
+
+#contenedor img {
+  width: 250px;
+}
